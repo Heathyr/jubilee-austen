@@ -34,6 +34,12 @@ header {
   background-size: cover;
 }
 
+header#work-page,
+header#contact-page {
+  height: 200px;
+  background: none;
+}
+
 h1 {
   font-family: 'Lora', serif;
   font-size: 30px;
