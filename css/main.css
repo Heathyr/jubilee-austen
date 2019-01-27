@@ -29,18 +29,21 @@ body {
 /********** HEADER **********/
 
 header {
-  height: 800px;
+  height: 700px;
   background: url('../img/hero.png');
   background-size: cover;
 }
 
 header#work-page,
 header#contact-page {
+  background: none;
+  background-color: hsl(0, 0%, 92%);
   height: 200px;
-  background-color: lightgray;
 }
 
-h1 {
+h1,
+#work-page h1,
+#contact-page h1 {
   font-family: 'Lora', serif;
   font-size: 30px;
   color: #BBC085;
